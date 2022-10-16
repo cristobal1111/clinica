@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %} 
+
+{% block contenido %} 
+  <div class="container-fluid">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img src="/img/Polotno3.png" alt="" width="70px" height="50px" class="logo">
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/Pages/index.html" class="nav-link">Inicio</a></li>
+        <li class="nav-item"><a href="/Pages/especialistas.html" class="nav-link">Especialistas</a></li>
+        <li class="nav-item"><a href="/Pages/saludmental.html" class="nav-link">Salud Mental</a></li>
+        <li class="nav-item"><a href="/Pages/talleres.html" class="nav-link">Talleres</a></li>
+        <li class="nav-item"><a href="/Pages/nosotros.html" class="nav-link disabled">Nosotros</a></li>
+        <li class="nav-item"><a href="/Pages/login.html" class="nav-link">Iniciar Sesi&oacute;n</a></li>
+      </ul>
+      <section class="textos-header">
+        <h1>Nosotros</h1>
+        <h2></h2>
+      </section>
+      <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+          <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+    </header>
+  </div>
+
+  <main>
+    <section class="contenedor sobre-nosotros">
+      <h2 class="titulo">Bienvenidos a nuestra Clínica</h2>
+      <div class="contenedor-sobre-nosotros">
+        <img src="/img/Captura de Pantalla 2022-10-02 a la(s) 20.45.23.png" alt="" class="imagen-about-us">
+        <div class="contenido-textos">
+          <h3><span>1</span>Brindamos atención integral, digna y de calidad.</h3>
+          <p>Somos una Institución privada cuyo objetivo es la recuperación de la salud mental de mediana y alta
+            complejidad. Nuestro proyecto ha considerado los avances actuales de la psiquiatría, psicología,
+            psicoanálisis, técnicas de rehabilitación y otras disciplinas.</p>
+          <h3><span>2</span>Qué nos diferencia</h3>
+          <p>Qué nos diferencia
+            Ubicada en la periferia de Santiago, con un acceso expedito nos ha permitido transferir el menor costo
+            inmobiliario a un mayor y mejor espacio en contacto con la naturaleza junto con un menú de actividades al
+            aire libre. Así, junto a la música y arte permanente, hemos desarrollado para nuestros pacientes actividades
+            psicoterapéuticas complementarias.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-services">
+      <div class="contenedor">
+        <h2 class="titulo">COMBATE EL ESTRÉS</h2>
+        <div class="servicio-cont">
+          <div class="servicio-ind">
+            <img src="/img/yoga.png" alt="">
+            <h3>Yoga</h3>
+            <p></p>
+          </div>
+          <div class="servicio-ind">
+            <img src="/img/pedestrian.png" alt="">
+            <h3>Caminata</h3>
+            <p></p>
+          </div>
+          <div class="servicio-ind">
+            <img src="/img/meditation.png" alt="">
+            <h3>Meditación</h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor-footer">
+      <div class="content-foo">
+        <h4>Teléfono</h4>
+        <p>+56 9 34958234</p>
+      </div>
+      <div class="content-foo">
+        <h4>Email</h4>
+        <p>ClinicaSlem@gmail.com</p>
+      </div>
+      <div class="content-foo">
+        <h4>Ubicación</h4>
+        <p>Viña del Mar 1 Pte con 2 Norte</p>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; Clínica Slem| Salud Mental 2022 </h2>
+  </footer>
+  {% endblock %}

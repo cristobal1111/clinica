@@ -1,0 +1,22 @@
+body{
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(#ffffff, #00DAC6, #ffffff) ;
+    background-attachment: fixed;
+}
+
+.nav-link{
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#titulocard{
+    text-align: center;
+}
+
+.card{
+    background: transparent;
+}
